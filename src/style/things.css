@@ -1,0 +1,34 @@
+.thingsContainer{
+    width:100vw;
+    text-align: center;
+    background-color:#f9f9f9;
+    height: max-content;
+    overflow: hidden;
+    padding-bottom: 50px;
+
+}
+
+.thingsTitle{
+    position: relative;
+    top:150px;
+    padding:50px 0px;
+    height: 150px;
+    opacity:0;
+}
+.thingsTitleh1{
+    font-size: 37px;
+    font-weight:500 !important;
+}
+
+
+
+@media(max-width:700px){
+    .thingsTitleh1{
+        font-size: 35px;
+    }
+}
+@media(max-width:500px){
+    .thingsTitleh1{
+        font-size: 25px;
+    }
+}
