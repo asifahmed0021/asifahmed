@@ -119,14 +119,14 @@ class About extends React.Component{
                                 <div className='slot4'>
                                     <div className='sub'>
                                     <h2 className='category4'>Languages i generally like to use:</h2>
-                                    <p className='lang'>•I like to code in Java and do the development work in javasciprt.</p><br></br>
-                                    <p className='lang'>•I know the basics of Python,C++,C and have completed some Deep-learning, artificial Intelligence and automation projects in Python.</p><br></br>
+                                    <p className='lang'>•I like to code in Java and C++ and do the development work in javasciprt.</p><br></br>
+                                    <p className='lang'>•I know the basics of Python and C and have completed some Deep-learning, artificial Intelligence and automation projects in Python.</p><br></br>
                                     
                                     </div>
                                     <div className='sub'>
                                     <h2 className='category4'>Fameworks and libraries i know:</h2>
                                     <p className='lang'>•Mainly i like to develop things using <br></br>React.js | Node.js | React-native | Jquery</p><br></br>
-                                    <p className='lang'>•I also have a basic understanding of Django and Android studio and cuurrently i am learning java servlets and spring framework.</p>
+                                    <p className='lang'>•I also have a basic understanding of Django and Android studio and currently i am learning java servlets and spring boot.</p>
                                     </div>
                                 </div>
                             </div>
