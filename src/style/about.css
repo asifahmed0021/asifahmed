@@ -1,26 +1,56 @@
 
 .aboutContainer{
     /* background-color: green; */
-    height:850px;
+    height:1100px;
     /* background-color: red; */
 }
 
 .leftSection{
     float: left;
     /* background-color: rosybrown; */
-    height: 850px;
+    height: 1100px;
     width:40vw;
 }
 
 .rightSection{
     position: relative;
     width: 60vw;
-    height: 850px;
+    height: 1100px;
     /* background-color: slategray; */
     float: right;
 }
 
-
+.cardsContainer{
+    position: relative;
+    top: 350px;
+    /* background-color: tomato; */
+    height: 900px;
+    width: 55vw;
+    margin-left: 2vw;
+    opacity: 0;
+}
+.card1{
+    width:22vw;
+    height: 900px;
+    float: left;
+    margin-left:2vw;
+    margin-right: 2vw;
+    padding-top: 50px;
+    /* background-color: snow; */
+    display: inline;
+    border: none;
+}
+.card2{
+    width:22vw;
+    height: 900px;
+    float: left;
+    margin-left:2vw;
+    margin-right: 2vw;
+    padding-top: 50px;
+    /* background-color: snow; */
+    display: inline;
+    border: none;
+}
 .head{
     position: relative;
     margin: 0px;
@@ -35,29 +65,10 @@
     padding-top: 50px;
     /* background-color: yellow; */
 }
-.cardsContainer{
-    position: relative;
-    top: 350px;
-    /* background-color: tomato; */
-    height: 650px;
-    width: 55vw;
-    margin-left: 2vw;
-    opacity: 0;
-}
-.card{
-    width:22vw;
-    height: 650px;
-    float: left;
-    margin-left:2vw;
-    margin-right: 2vw;
-    padding-top: 50px;
-    /* background-color: snow; */
-    display: inline;
-    border: none;
-}
 .title{
     text-align: center;
-    margin-bottom: 20px;
+    margin-bottom: 30px;
+    margin-top: 20px;
     font-size:10px ;
 }
 .titleh1{
@@ -89,7 +100,7 @@
 .slot3{
     width: 22vw;
     float: left;
-    height: 18vh;
+    height: 100px;
     text-align: center;
 }
 .slot4{
@@ -98,6 +109,7 @@
     height: 400px;
     text-align: left;
 }
+
 
 .lang{
     padding-left: 10px;
@@ -140,11 +152,11 @@
 }
 .place{
     color:#878787;
-    height: 19vh;
+    height: 50px;
 }
 @media(max-width:1200px){
     .aboutContainer{
-        height:1975px;
+        height:2375px;
     }
     .leftSection{
         width: 100vw;
@@ -153,7 +165,7 @@
     }
     .rightSection{
         width: 100vw;
-        height: 1200px;
+        height: 1600px;
         /* background-color: lightblue; */
     }
 
@@ -164,8 +176,14 @@
     }
     .cardsContainer{
         width:96vw;
+        height:1400px;
     }
-    .card{
+    .card1{
+        width:92vw;
+        height:900px;
+        /* background-color:lawngreen ; */
+    }
+    .card2{
         width:92vw;
         height:500px;
         /* background-color:lawngreen ; */
@@ -228,7 +246,7 @@
         height: 550px;
     }
     .aboutContainer{
-        height: 1750px;
+        height: 2150px;
     }
     .profile{
         width: 300px;
@@ -246,32 +264,37 @@
     }
 }
 
-@media(max-width:360px){
-    .card{
-        height: 550px;
-    }
-    .rightSection{
-        height: 1300px;
-    }
-    .aboutContainer{
-        height: 1850px;
-    }
-}
 
-@media(max-width:420px){
+
+@media(max-width:460px){
     .head{
         font-size: 28px;
     }
+    .category4{
+        height:100px;
+    }
+    .card2{
+        height:700px;
+    }
+    .cardsContainer{
+        height: 1600px;
+    }
     .rightSection{
-        height: 1450px;
+        height: 1800px;
     }
     .aboutContainer{
-        height: 2000px;
+        height: 2350px;
     }
 }
 
-@media(max-width:380px){
-    .category4{
-        height:100px;
+@media(max-width:325px){
+    .card2{
+        height: 800px;
+    }
+    .rightSection{
+        height: 1900px;
+    }
+    .aboutContainer{
+        height: 2450px;
     }
 }

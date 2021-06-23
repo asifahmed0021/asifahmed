@@ -92,7 +92,7 @@ class About extends React.Component{
                 <div className='rightSection'>
                     <h1 className='head'>A little more about Asif Ahmed</h1>
                     <div className='cardsContainer'>
-                        <div className='card'>
+                        <div className='card1'>
                             <div className='title'>
                                 <h1 className='titleh1'>Education</h1>
                             </div>
@@ -109,10 +109,21 @@ class About extends React.Component{
                                 <h2 className='category'>Higher<br></br>secondary <br></br>education</h2>
                                 <p className='place'>SR public<br></br>School,<br></br>Kota (R.J)</p>
                             </div>
-
-
+                            <br></br>
+                            <div className='title'>
+                                <h1 className='titleh1'>Work Experience</h1>
+                            </div>
+                            <div className='slot3'>
+                                <h2 className='category'>Wipro Technologies, Bangalore</h2>
+                                <p className='place'>Software Development Intern<br></br>(2019)</p>
+                            </div>
+                            <div className='slot3'>
+                                <h2 className='category'>Vedantu, Bangalore</h2>
+                                <p className='place'>Software Development Engineer<br></br>(Currently Working)</p>
+                            </div>
                         </div>
-                        <div className='card'>
+
+                        <div className='card2'>
                             <div className='title'>
                                 <h1 className='titleh1'>Skills</h1>
                             </div>
@@ -121,8 +132,8 @@ class About extends React.Component{
                                     <h2 className='category4'>Languages i generally like to use:</h2>
                                     <p className='lang'>•I like to code in Java and C++ and do the development work in javasciprt.</p><br></br>
                                     <p className='lang'>•I know the basics of Python and C and have completed some Deep-learning, artificial Intelligence and automation projects in Python.</p><br></br>
-                                    
                                     </div>
+
                                     <div className='sub'>
                                     <h2 className='category4'>Fameworks and libraries i know:</h2>
                                     <p className='lang'>•Mainly i like to develop things using <br></br>React.js | Node.js | React-native | Jquery</p><br></br>
@@ -130,7 +141,9 @@ class About extends React.Component{
                                     </div>
                                 </div>
                             </div>
+
                         </div>
+
 
                     </div>
                 </div>
