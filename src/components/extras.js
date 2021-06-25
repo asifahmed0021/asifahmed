@@ -38,7 +38,7 @@ class Extras extends React.Component{
                     <Extra secondAbsoluteImageContainerClass='absolute2' class2='extra2' heading='Ignus Asst Marketing Head' about="Ignus is asia's fifth biggest socio-cultural fest. I was the assistant marketing head of our marketing team." next="My role was to manage a team of 20 members and guiding them through the process of communicating with third party vendors and seeking sponsorship."/>
                     <Extra secondAbsoluteImageContainerClass='absolute3' class2='extra3' heading='Basketball Championship' about="Two things that i've definitely learnt from Basketball is great teamwork and giving my 100% while doing a task." next="In Jodhpur open college Basketball tournament we won four heated matches and bagged third position after giving a tough fight in the semi-finals." />
                     <Extra secondAbsoluteImageContainerClass='absolute4' class2='extra4' heading='College Cultural Fests' about='Talking is the voice of human, singing is the voice of soul.' next="I have always been very active and interested in co-curricular activities. Even though i am not a 'great' singer, i thought why not participate?" />
-                    <Extra secondAbsoluteImageContainerClass='absolute5' class2='extra5' heading='Lions Club Activity' about='Talking is the voice of human, singing is the voice of soul.' next=" " />
+                    <Extra secondAbsoluteImageContainerClass='absolute5' class2='extra5' heading='Work in progress..' about='Work in progress' next=" " />
                 </div>
             </div>
         )

@@ -78,7 +78,7 @@ class About extends React.Component{
                                 <a target='blank' href='https://github.com/asifahmed0021'><FontAwesomeIcon  color={this.state.gcolor} icon={['fab','github']} size='3x'/></a>
                             </div>
                             <div onMouseEnter={this.instaEnter.bind(this)} onMouseLeave={this.leave.bind(this)}  className='icon'>
-                                <a target='blank' href='https://www.instagram.com/asifahmed0010'><FontAwesomeIcon  color={this.state.icolor} icon={['fab','instagram']} size='3x' /></a>
+                                <a target='blank' href='https://www.instagram.com/asifahmed0021'><FontAwesomeIcon  color={this.state.icolor} icon={['fab','instagram']} size='3x' /></a>
                             </div>
                             <div onMouseEnter={this.whatsappEnter.bind(this)} onMouseLeave={this.leave.bind(this)} className='icon'>
                                 <a target='blank' href='https://api.whatsapp.com/send?phone=919685422752'><FontAwesomeIcon color={this.state.wcolor} icon={['fab','whatsapp']} size='3x'/></a>
@@ -130,8 +130,8 @@ class About extends React.Component{
                                 <div className='slot4'>
                                     <div className='sub'>
                                     <h2 className='category4'>Languages i generally like to use:</h2>
-                                    <p className='lang'>•I like to code in Java and C++ and do the development work in javasciprt.</p><br></br>
-                                    <p className='lang'>•I know the basics of Python and C and have completed some Deep-learning, artificial Intelligence and automation projects in Python.</p><br></br>
+                                    <p className='lang'>•I like to code in Java and C++ and do the development work in javasciprt. You can have a look at my <a target="blank" className="contestLink" href="https://codeforces.com/profile/asifahmed0010">codeforces</a> and <a target="blank" className="contestLink" href="https://www.codechef.com/users/asifahmed0021">codechef</a> profiles.</p><br></br>
+                                    <p className='lang'>•I know the basics of Python and C and have done some Deep-learning, artificial Intelligence and automation work in Python.</p><br></br>
                                     </div>
 
                                     <div className='sub'>

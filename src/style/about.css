@@ -154,6 +154,10 @@
     color:#878787;
     height: 50px;
 }
+/* .contestLink{
+    color:rgb(134, 141, 223);
+} */
+
 @media(max-width:1200px){
     .aboutContainer{
         height:2375px;
