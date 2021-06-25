@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/asifahmed/static/css/main.ba911dae.chunk.css",
-    "main.js": "/asifahmed/static/js/main.4863c2f2.chunk.js",
-    "main.js.map": "/asifahmed/static/js/main.4863c2f2.chunk.js.map",
+    "main.css": "/asifahmed/static/css/main.b9b875e3.chunk.css",
+    "main.js": "/asifahmed/static/js/main.8d728a1b.chunk.js",
+    "main.js.map": "/asifahmed/static/js/main.8d728a1b.chunk.js.map",
     "runtime-main.js": "/asifahmed/static/js/runtime-main.10821119.js",
     "runtime-main.js.map": "/asifahmed/static/js/runtime-main.10821119.js.map",
     "static/js/2.fe1d58e5.chunk.js": "/asifahmed/static/js/2.fe1d58e5.chunk.js",
     "static/js/2.fe1d58e5.chunk.js.map": "/asifahmed/static/js/2.fe1d58e5.chunk.js.map",
     "index.html": "/asifahmed/index.html",
-    "static/css/main.ba911dae.chunk.css.map": "/asifahmed/static/css/main.ba911dae.chunk.css.map",
+    "static/css/main.b9b875e3.chunk.css.map": "/asifahmed/static/css/main.b9b875e3.chunk.css.map",
     "static/js/2.fe1d58e5.chunk.js.LICENSE.txt": "/asifahmed/static/js/2.fe1d58e5.chunk.js.LICENSE.txt",
     "static/media/about.css": "/asifahmed/static/media/asifc.d4416bd4.png",
     "static/media/extra.css": "/asifahmed/static/media/team.1051b7a9.jpg",
@@ -17,7 +17,7 @@
   "entrypoints": [
     "static/js/runtime-main.10821119.js",
     "static/js/2.fe1d58e5.chunk.js",
-    "static/css/main.ba911dae.chunk.css",
-    "static/js/main.4863c2f2.chunk.js"
+    "static/css/main.b9b875e3.chunk.css",
+    "static/js/main.8d728a1b.chunk.js"
   ]
 }
