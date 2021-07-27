@@ -90,17 +90,22 @@ class Contact extends React.Component{
 
     sendEmail(e){
         e.preventDefault()
-        if (e.target.name.value==='' ||  e.target.email.value==='' || e.target.message.value==='')            alert('Please fill out all the fields.');
+        let str='mailto:asif.ahmed0021@gmail.com?subject=Hi! '+e.target.name.value.charAt(0).toUpperCase() + e.target.name.value.slice(1) +' here, Can we connect?'+' You can contact me back on '+ e.target.email.value+'&body=' + e.target.message.value 
+        window.open(str);
+        e.target.name.value=''
+        e.target.email.value=''
+        e.target.message.value=''
+        // if (e.target.name.value==='' ||  e.target.email.value==='' || e.target.message.value==='')            alert('Please fill out all the fields.');
         
-        else            emailjs.sendForm('service_kqazw7n', 'template_8ej7n4k', e.target, 'user_noWTsjUTcyNdW82LZr2Kz')
-            .then((result) => {
-                alert('Message sent successfully to Asif!')
-                e.target.name.value=''
-                e.target.email.value=''
-                e.target.message.value=''
-            }, (error) => {
-                console.log(error.text);
-            });
+        // else            emailjs.sendForm('service_kqazw7n', 'template_8ej7n4k', e.target, 'user_noWTsjUTcyNdW82LZr2Kz')
+        //     .then((result) => {
+        //         alert('Message sent successfully to Asif!')
+        //         e.target.name.value=''
+        //         e.target.email.value=''
+        //         e.target.message.value=''
+        //     }, (error) => {
+        //         console.log(error.text);
+        //     });
 
       }
 
@@ -131,7 +136,7 @@ class Contact extends React.Component{
                         <h1 className='contactInfo'>Contact Info</h1>
                         <p className='line'>Feel free to contact me.</p>
                         <a target='blank' href='https://www.google.com/maps/place/Indian+Institute+of+Technology+Jodhpur+(Permanent+Campus)/@26.4754958,73.113301,17z/data=!3m1!4b1!4m5!3m4!1s0x3941eb1936c09137:0x86e85867a6284e3f!8m2!3d26.475491!4d73.1154897'><p className={`line ${'link'}`}><span><FontAwesomeIcon icon={faMapMarkerAlt}/></span> Indian Institute of Technology,Jodhpur,Rajasthan,India</p></a>
-                        <a target='blank' href='mailto:ahmed.1@iitj.ac.in'><p className={`line ${'link'}`}> <span><FontAwesomeIcon icon={faEnvelope}/></span> ahmed.1@iitj.ac.in</p></a>
+                        <a target='blank' href='mailto:ahmed.1@iitj.ac.in'><p className={`line ${'link'}`}> <span><FontAwesomeIcon icon={faEnvelope}/></span> asif.ahmed0021@gmail.com</p></a>
                         <a href='tel:9685422752'><p className={`line ${'link'}`}> <span><FontAwesomeIcon icon={faPhoneAlt}/></span> +91 9685422752</p></a>
                         <div className='contactIcons'>
                             <div onMouseEnter={this.gitEnter.bind(this)} onMouseLeave={this.leave.bind(this)} className='contactIcon'>
